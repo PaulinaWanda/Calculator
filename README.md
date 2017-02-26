@@ -12,4 +12,6 @@ This project is a part of online front end development course - freeCodeCamp
 
 -  User Story: I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
 
-You can see how my calculator works here: http://codepen.io/PaulinaWanda/pen/eBvoWo
+You can see how my calculator works here: https://paulinawanda.github.io/Calculator/index.html
+
+or here: http://codepen.io/PaulinaWanda/pen/eBvoWo
