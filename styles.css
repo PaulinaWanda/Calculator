@@ -1,0 +1,154 @@
+body {
+    background-image: radial-gradient(circle, #ffffff 5%, #aed136);
+    font-family: 'Audiowide', cursive;
+}
+
+.calculator-container,
+.screen {
+    box-shadow: 1.5px 1.5px 2px #555555, -.5px -.5px 2px #555555;
+}
+
+.calculator-container {
+    width: 300px;
+    height: 400px;
+    margin: 10% auto;
+    border: .5px solid #b6aea1;
+    background-image: linear-gradient(90deg, #b6aea1, #777777 10%, #777777 90%, #b6aea1);
+    border-radius: 5%;
+}
+
+.screen,
+.button-panel {
+    width: 80%;
+}
+
+.screen {
+    height: 87px;
+    margin: 40px auto;
+    border: 2px solid #b6aea1;
+    background-image: linear-gradient(150deg, #78c3ae, #ffffff, #78c3ae);
+    text-align: right;
+    border-radius: 2%;
+}
+
+.current-calc,
+.whole-calc {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.current-calc {
+    height: 40px;
+    font-size: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.whole-calc {
+    font-size: 20px;
+}
+
+.button-panel {
+    margin: 0 auto;
+    position: relative;
+}
+
+.button-panel button {
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #555555;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.button-panel button:active {
+    box-shadow: inset 1px 1px 2px #555555;
+}
+
+.cancel {
+    background-image: linear-gradient(#d32127, #812127);
+}
+
+.num {
+    background-image: linear-gradient(#f9f1b5, #d2c950);
+}
+
+.operator,
+.point {
+    background-image: linear-gradient(#a3dfdf, #00adc8);
+}
+
+.button-panel button.plus {
+    height: 72px;
+    background-image: linear-gradient(#aed136, #3ea100);
+}
+
+.button-panel button.equal-symbol {
+    width: 90px;
+    background-image: linear-gradient(#f4ac42, #fd8a33)
+}
+
+button:nth-child(6),
+button:nth-child(7),
+button:nth-child(8),
+button:nth-child(9),
+button:nth-child(10) {
+    top: 37px;
+}
+
+button:nth-child(11),
+button:nth-child(12),
+button:nth-child(13),
+button:nth-child(14),
+button:nth-child(15) {
+    top: 74px;
+}
+
+button:nth-child(16),
+button:nth-child(17),
+button:nth-child(18),
+button:nth-child(19) {
+    top: 111px;
+}
+
+button:nth-child(20),
+button:nth-child(21),
+button:nth-child(22),
+button:nth-child(23) {
+    top: 148px;
+}
+
+button:nth-child(2),
+button:nth-child(7),
+button:nth-child(12),
+button:nth-child(17),
+button:nth-child(21) {
+    left: 45px;
+}
+
+button:nth-child(3),
+button:nth-child(8),
+button:nth-child(13),
+button:nth-child(18),
+button:nth-child(22) {
+    left: 90px;
+}
+
+button:nth-child(4),
+button:nth-child(9),
+button:nth-child(14),
+button:nth-child(23) {
+    left: 135px;
+}
+
+button:nth-child(5),
+button:nth-child(10),
+button:nth-child(15),
+button:nth-child(19) {
+    left: 180px;
+}
